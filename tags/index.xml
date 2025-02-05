@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Yuchi Site</title>
-    <link>https://charlieyuchi.io.github/tags/</link>
+    <link>https://charlieyuchi.github.io/tags/</link>
     <description>Recent content in Tags on Yuchi Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 04 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://charlieyuchi.io.github/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://charlieyuchi.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tag1</title>
-      <link>https://charlieyuchi.io.github/tags/tag1/</link>
+      <link>https://charlieyuchi.github.io/tags/tag1/</link>
       <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://charlieyuchi.io.github/tags/tag1/</guid>
+      <guid>https://charlieyuchi.github.io/tags/tag1/</guid>
       <description></description>
     </item>
     <item>
       <title>Tag2</title>
-      <link>https://charlieyuchi.io.github/tags/tag2/</link>
+      <link>https://charlieyuchi.github.io/tags/tag2/</link>
       <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://charlieyuchi.io.github/tags/tag2/</guid>
+      <guid>https://charlieyuchi.github.io/tags/tag2/</guid>
       <description></description>
     </item>
   </channel>
