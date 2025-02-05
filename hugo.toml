@@ -1,4 +1,0 @@
-theme = "hugo-theme-cleanwhite"
-baseURL = 'https://charlieyuchi.io.github/'
-languageCode = 'en-us'
-title = 'Yuchi Site'
