@@ -9,6 +9,13 @@
     <lastBuildDate>Sun, 09 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://charlieyuchi.github.io/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>hugo &#43; github</title>
+      <link>https://charlieyuchi.github.io/post/hugo_github/</link>
+      <pubDate>Sun, 09 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://charlieyuchi.github.io/post/hugo_github/</guid>
+      <description>&lt;h1 id=&#34;hugo--github&#34;&gt;hugo + github&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;baseURL 如果打錯會造成裡面的連結錯誤&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;e.g. xxx.github.io 打成 xxx.io.github&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;網站修改完upload流程&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;terminal&#xA;&lt;ol&gt;&#xA;&lt;li&gt;$: hugo&#xA;&lt;ol&gt;&#xA;&lt;li&gt;生成新的網頁到/public&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;在/my-hugo-site&#xA;&lt;ol&gt;&#xA;&lt;li&gt;把/public中的網頁拉出來到./&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;git commit + push 拉出來的網頁&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
       <title>Hugo 安裝(Mac)</title>
       <link>https://charlieyuchi.github.io/post/post2/</link>
       <pubDate>Sun, 09 Feb 2025 00:00:00 +0000</pubDate>
