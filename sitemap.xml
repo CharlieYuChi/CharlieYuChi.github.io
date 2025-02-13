@@ -3,7 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://charlieyuchi.github.io/categories/</loc>
-    <lastmod>2025-02-09T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://charlieyuchi.github.io/post/</loc>
+    <lastmod>2025-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://charlieyuchi.github.io/tags/tag1/</loc>
+    <lastmod>2025-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://charlieyuchi.github.io/tags/tag2/</loc>
+    <lastmod>2025-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://charlieyuchi.github.io/tags/</loc>
+    <lastmod>2025-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://charlieyuchi.github.io/categories/tech/</loc>
+    <lastmod>2025-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://charlieyuchi.github.io/</loc>
+    <lastmod>2025-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://charlieyuchi.github.io/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git-%E6%9E%B6%E7%AB%99/</loc>
+    <lastmod>2025-02-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://charlieyuchi.github.io/post/hugo_github/</loc>
     <lastmod>2025-02-09T00:00:00+00:00</lastmod>
@@ -11,27 +32,7 @@
     <loc>https://charlieyuchi.github.io/post/post2/</loc>
     <lastmod>2025-02-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://charlieyuchi.github.io/post/</loc>
-    <lastmod>2025-02-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://charlieyuchi.github.io/tags/tag1/</loc>
-    <lastmod>2025-02-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://charlieyuchi.github.io/tags/tag2/</loc>
-    <lastmod>2025-02-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://charlieyuchi.github.io/tags/</loc>
-    <lastmod>2025-02-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://charlieyuchi.github.io/categories/tech/</loc>
-    <lastmod>2025-02-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://charlieyuchi.github.io/</loc>
-    <lastmod>2025-02-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://charlieyuchi.github.io/post/my-first-post/</loc>
     <lastmod>2025-02-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://charlieyuchi.github.io/post/how_use_github_to_develop_website/</loc>
   </url>
 </urlset>
