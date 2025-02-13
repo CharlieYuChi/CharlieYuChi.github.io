@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:site_name" content="Yuchi Site">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content="https://charlieyuchi.github.io//">
+    <meta property="twitter:image" content="https://charlieyuchi.github.io//" />
+    
+
+    
+    <meta name="title" content="" />
+    <meta property="og:title" content="" />
+    <meta property="twitter:title" content="" />
+    
+
+    
+    <meta name="description" content="">
+    <meta property="og:description" content="" />
+    <meta property="twitter:description" content="" />
+    
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title></title>
+
+    <link rel="canonical" href="/post/how_use_github_to_develop_website/">
+
+    
+    
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.min.css">
+
+    
+    <link rel="stylesheet" href="/css/zanshang.css">
+
+    
+    <link rel="stylesheet" href="/css/font-awesome.all.min.css">
+
+    
+    
+
+    
+    <script src="/js/jquery.min.js"></script>
+
+    
+    <script src="/js/bootstrap.min.js"></script>
+
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    <script src="/js/lazysizes.min.js"></script>
+
+    
+    
+
+</head>
+
+
+
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Yuchi Site</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">All Posts</a>
+                    </li>
+                    
+                        
+                        <li>
+                            <a href="/categories/tech/">tech</a>
+                        </li>
+                        
+                    
+                    
+		    
+		            <li>
+                        <a href="/search"><i class="fa fa-search"></i></a>
+		           </li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('/')
+    }
+</style>
+
+<header class="intro-header" >
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                    </div>
+                    <h1></h1>
+                    <h2 class="subheading"></h2>
+                    <span class="meta">
+                        
+                            Posted by 
+                            
+                                    Yuchi Site
+                             
+                            on 
+                            Monday, January 1, 0001
+                            
+                            
+                            
+                            
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<article>
+    <div class="container">
+        <div class="row">
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                
+                <p>PK
+����dxMZGB�w�#���#���&quot;�如何使用git 架站.mdup�B��如何使用git 架站.md# 如何使用git 架站</p>
+<p>使用 <strong>GitHub</strong> 來架設網站是一個方便又免費的選擇，特別適合個人作品集、部落格或專案文件。GitHub 提供 <strong>GitHub Pages</strong>，可以將儲存庫中的靜態網頁（如 HTML、CSS、JavaScript）直接部署成一個公開可訪問的網站。</p>
+<p><strong>如何使用 GitHub 架設網站的步驟</strong></p>
+<p><strong>方法 1：使用 GitHub Pages 部署靜態網站</strong></p>
+<p>這種方法適合單純的靜態網站（HTML、CSS、JavaScript），適合新手使用。</p>
+<p><strong>步驟 1：建立 GitHub 儲存庫</strong></p>
+<p>1. 登入 <a href="https://github.com">GitHub</a>。</p>
+<p>2. 點擊「<strong>New Repository</strong>」建立一個新的儲存庫。</p>
+<p>3. 命名儲存庫，例如 my-website，選擇「Public」，並勾選「Add a README file」。</p>
+<p>4. 點擊「Create Repository」。</p>
+<p><strong>步驟 2：上傳或建立網頁文件</strong></p>
+<p>1. 進入儲存庫，點擊「<strong>Add file → Upload files</strong>」，上傳你的 HTML、CSS、JavaScript 文件，或直接在線上編輯。</p>
+<p>2. 建立一個 index.html 作為網站的首頁，內容範例如下：</p>
+<pre tabindex="0"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;en&#34;&gt;
+&lt;head&gt;
+    &lt;meta charset=&#34;UTF-8&#34;&gt;
+    &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;
+    &lt;title&gt;My GitHub Website&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;歡迎來到我的 GitHub Pages 網站！&lt;/h1&gt;
+    &lt;p&gt;這是一個靜態網站示範。&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre><p><strong>步驟 3：啟用 GitHub Pages</strong></p>
+<p>1. 進入儲存庫，點擊右上角的「<strong>Settings</strong>」。</p>
+<p>2. 在左側選單中找到「<strong>Pages</strong>」選項。</p>
+<p>3. 在「Branch」下拉選單中選擇 main（或 master，依據你的預設分支）。</p>
+<p>4. 點擊「<strong>Save</strong>」，GitHub 會自動部署你的網站。</p>
+<p>5. 你將會看到一個自動產生的網址，例如：</p>
+<pre tabindex="0"><code>https://你的GitHub使用者名稱.github.io/你的儲存庫名稱/
+</code></pre><p><strong>步驟 4：更新網站內容</strong></p>
+<p>• 每次對儲存庫進行推送（git push），GitHub Pages 都會自動更新網站內容。</p>
+<p><strong>方法 2：使用 Jekyll 或 Hugo 建立靜態網站</strong></p>
+<p>如果你想要建立部落格或需要更複雜的網站，GitHub Pages 支援 <strong>Jekyll</strong>（一個靜態網站生成器）。</p>
+<p><strong>快速上手 Jekyll 網站</strong></p>
+<p>1. 安裝 Ruby 和 Jekyll：</p>
+<pre tabindex="0"><code>gem install jekyll bundler
+jekyll new my-blog
+cd my-blog
+bundle exec jekyll serve
+</code></pre><p>2. 建立網站內容後，將檔案上傳至 GitHub 儲存庫並啟用 GitHub Pages。</p>
+<p>3. 你也可以選擇使用 <strong>Hugo</strong> 或其他靜態網站生成器。</p>
+<p><strong>方法 3：透過 GitHub + CI/CD 部署動態網站</strong></p>
+<p>如果你的網站需要更進階功能（例如後端 API、資料庫），可以使用 <strong>GitHub Actions</strong> 搭配雲端服務（如 Netlify、Vercel）進行 CI/CD 自動部署。</p>
+<p><strong>示範使用 Vercel 自動部署</strong></p>
+<p>1. 在 <a href="https://vercel.com/">Vercel</a> 註冊並連接你的 GitHub 儲存庫。</p>
+<p>2. 每當你更新程式碼並推送到 GitHub，Vercel 會自動重新部署你的網站。</p>
+<p><strong>GitHub Pages 的優缺點</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th><strong>優點</strong></th>
+          <th><strong>缺點</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>免費且無廣告</td>
+          <td>只支援靜態網站</td>
+      </tr>
+      <tr>
+          <td>簡單易用，適合初學者</td>
+          <td>需要綁定網域手動設定</td>
+      </tr>
+      <tr>
+          <td>可搭配 Jekyll 使用</td>
+          <td>不能直接執行伺服器端程式碼（如 PHP）</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>額外進階技巧</strong></p>
+<p>1. <strong>綁定自訂網域：</strong></p>
+<p>在 Settings &gt; Pages 中設定自訂網域，例如 <a href="www.mywebsite.com">www.mywebsite.com</a>，並在網域服務商設定 DNS 記錄。</p>
+<p>2. <strong>使用 HTTPS 安全加密：</strong></p>
+<p>GitHub Pages 提供免費的 SSL 憑證，保證你的網站透過 https:// 安全存取。</p>
+<p>3. <strong>版本控制與回溯：</strong></p>
+<p>使用 GitHub 的版本控制功能，追蹤網站的變化，必要時回滾至舊版。</p>
+<p>如果你有具體的網站需求或想要深入學習，可以告訴我你的目標，我可以幫你選擇最適合的方法！</p>
+<hr>
+<p>使用 <strong>Hugo</strong> 搭配 <strong>GitHub Pages</strong> 來架設網站是一個高效、免費且靜態的網站解決方案。Hugo 是一個輕量且快速的靜態網站生成器，適合建立部落格、個人網站或文件網站。</p>
+<p><strong>使用 Hugo + GitHub Pages 架站流程</strong></p>
+<p><strong>步驟 1：安裝 Hugo</strong></p>
+<p>在開始之前，首先需要安裝 Hugo。根據你的作業系統選擇安裝方法：</p>
+<p><strong>Windows：</strong></p>
+<p>1. 下載 Hugo 安裝程式：<a href="https://github.com/gohugoio/hugo/releases">Hugo Releases</a></p>
+<p>2. 解壓後將 hugo.exe 加入系統環境變數。</p>
+<p><strong>macOS：</strong></p>
+<pre tabindex="0"><code>brew install hugo
+</code></pre><p><strong>Linux：</strong></p>
+<pre tabindex="0"><code>sudo apt install hugo
+</code></pre><p>安裝完成後，驗證安裝：</p>
+<pre tabindex="0"><code>hugo version
+</code></pre><p>如果成功，應該會顯示 Hugo 的版本資訊。</p>
+<p><strong>步驟 2：建立新的 Hugo 網站</strong></p>
+<p>開啟終端機（Terminal/Command Prompt），執行以下指令來建立新網站：</p>
+<pre tabindex="0"><code>hugo new site my-hugo-site
+cd my-hugo-site
+</code></pre><p>這會在本地建立一個基本的 Hugo 網站架構。</p>
+<p><strong>步驟 3：選擇與下載 Hugo 佈景主題</strong></p>
+<p>Hugo 提供多種免費佈景主題，瀏覽 <a href="https://themes.gohugo.io/">Hugo Themes</a> 選擇一個適合的主題，然後下載到你的專案目錄。</p>
+<p>例如，使用 ananke 佈景主題：</p>
+<pre tabindex="0"><code>git init
+git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+</code></pre><p>在網站的設定檔 config.toml 中啟用主題：</p>
+<pre tabindex="0"><code>theme = &#34;ananke&#34;
+baseURL = &#34;https://你的GitHub使用者名稱.github.io/&#34;
+title = &#34;My Hugo Website&#34;
+languageCode = &#34;en-us&#34;
+</code></pre><p><strong>步驟 4：新增網站內容</strong></p>
+<p>使用以下指令新增文章或頁面：</p>
+<pre tabindex="0"><code>hugo new posts/my-first-post.md
+</code></pre><p>進入 content/posts/ 資料夾，編輯 Markdown 文件，例如：</p>
+<pre tabindex="0"><code>---
+title: &#34;我的第一篇文章&#34;
+date: 2025-01-24
+draft: false
+---
+
+這是我的第一篇 Hugo 部落格文章，歡迎光臨！
+</code></pre><p><strong>重要提醒：</strong> 將 draft: false 改為 false，否則 Hugo 不會發佈該文章。</p>
+<p><strong>步驟 5：本地測試網站</strong></p>
+<p>在開發過程中，可以在本機測試網站：</p>
+<pre tabindex="0"><code>hugo server -D
+</code></pre><p>打開瀏覽器，訪問 <a href="http://localhost:1313">http://localhost:1313</a> 查看你的網站。</p>
+<p><strong>步驟 6：建置網站</strong></p>
+<p>當你滿意你的內容後，可以使用 Hugo 將網站轉換為靜態 HTML：</p>
+<pre tabindex="0"><code>hugo
+</code></pre><p>Hugo 會在 public/ 資料夾中生成靜態網站檔案。</p>
+<p><strong>步驟 7：推送至 GitHub Pages</strong></p>
+<p>1. 前往 <a href="https://github.com">GitHub</a>，建立一個新的儲存庫，例如 my-hugo-site。</p>
+<p>2. 在終端機執行以下指令將網站推送到 GitHub：</p>
+<pre tabindex="0"><code># 進入 Hugo 生成的 public 目錄
+cd public
+
+# 初始化 Git 儲存庫
+git init
+git remote add origin https://github.com/你的GitHub使用者名稱/my-hugo-site.git
+
+# 提交變更
+git add .
+git commit -m &#34;Initial commit&#34;
+
+# 推送至 GitHub
+git branch -M main
+git push -u origin main
+</code></pre><p><strong>步驟 8：設定 GitHub Pages</strong></p>
+<p>1. 進入你的 GitHub 儲存庫，點擊「<strong>Settings &gt; Pages</strong>」。</p>
+<p>2. 在「Branch」選擇 main，資料夾選擇 / (root)，然後按下「Save」。</p>
+<p>3. GitHub 會提供一個網址，例如：</p>
+<pre tabindex="0"><code>https://你的GitHub使用者名稱.github.io/my-hugo-site/
+</code></pre><p><strong>步驟 9：設定 GitHub Actions（自動部署）</strong></p>
+<p>如果你希望自動部署網站（當你修改內容並推送時），可以使用 GitHub Actions 自動化流程。</p>
+<p>1. 在 GitHub 儲存庫中建立 .github/workflows/gh-pages.yml 檔案，並加入以下內容：</p>
+<pre tabindex="0"><code>name: Deploy Hugo site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: &#39;latest&#39;
+
+      - name: Build site
+        run: hugo --minify
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+</code></pre><p>2. 提交這個檔案後，GitHub Actions 會自動執行，並將網站部署到 GitHub Pages。</p>
+<p><strong>步驟 10：設定自訂網域（可選）</strong></p>
+<p>如果你有自己的網域名稱，可以在 GitHub Pages 設定：</p>
+<p>1. 前往 Settings &gt; Pages，在「Custom domain」輸入你的網域，例如 <a href="www.mydomain.com">www.mydomain.com</a>。</p>
+<p>2. 到你的網域註冊商（如 GoDaddy、Cloudflare），新增 CNAME 記錄指向 <a href="%E4%BD%A0%E7%9A%84GitHub%E4%BD%BF%E7%94%A8%E8%80%85%E5%90%8D%E7%A8%B1.github.io">你的GitHub使用者名稱.github.io</a>。</p>
+<p><strong>常見問題解決</strong></p>
+<p>1. <strong>網站不顯示變更？</strong></p>
+<p>• 檢查 Hugo 文章是否標記為 draft: false。</p>
+<p>• 清除瀏覽器快取。</p>
+<p>2. <strong>GitHub Pages 無法找到網站？</strong></p>
+<p>• 確保 GitHub Pages 設定正確，並使用 <a href="https://%E4%BD%A0%E7%9A%84GitHub%E4%BD%BF%E7%94%A8%E8%80%85%E5%90%8D%E7%A8%B1.github.io/%E4%BD%A0%E7%9A%84%E5%84%B2%E5%AD%98%E5%BA%AB%E5%90%8D%E7%A8%B1/">https://你的GitHub使用者名稱.github.io/你的儲存庫名稱/</a> 瀏覽。</p>
+<p>3. <strong>佈景主題未正確載入？</strong></p>
+<p>• 檢查 config.toml 是否正確引用佈景主題，並將佈景主題加入版本控制：</p>
+<pre tabindex="0"><code>git submodule add &lt;theme-url&gt; themes/&lt;theme-name&gt;
+</code></pre><p><strong>總結</strong></p>
+<p>1. 安裝 Hugo 並建立網站架構。</p>
+<p>2. 選擇佈景主題並新增內容。</p>
+<p>3. 本機測試網站，然後使用 Hugo 生成靜態頁面。</p>
+<p>4. 推送網站到 GitHub 儲存庫並啟用 GitHub Pages。</p>
+<p>5. 設定 GitHub Actions 自動部署（可選）。</p>
+<p>6. 綁定自訂網域（可選）。</p>
+<p>希望這個流程對你有幫助！如果你有進一步的問題，請隨時提問。PK�
+����dxMZGB�w�#���#���&quot;���������������如何使用git 架站.mdup�B��如何使用git 架站.mdPK������i���&lt;$����</p>
+
+
+                
+
+                
+                <hr>
+                <ul class="pager">
+                    
+                    
+                    <li class="next">
+                        <a href="/post/my-first-post/" data-toggle="tooltip" data-placement="top" title="An Example Post">Next
+                            Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+                
+
+                
+
+
+
+
+            </div>
+
+            
+            
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+            
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+
+                
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    
+                    
+                    
+                    
+
+		            
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+            
+            
+            
+           
+             </ul>
+		<p class="copyright text-muted">
+                    Copyright &copy; Yuchi Site 2025
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        loadAsync("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    loadAsync("https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+
+        
+        
+        
+        
+            _containerSelector = 'div.post-container'
+        
+
+        
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        
+        $(selector).html('')
+
+        
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow" title="' + t + '">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    
+
+
+    loadAsync("\/js\/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+
+
+
+
+</body>
+</html>
