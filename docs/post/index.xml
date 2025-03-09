@@ -6,15 +6,8 @@
     <description>Recent content in Posts on Yuchi Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://charlieyuchi.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>測試用文章</title>
-      <link>https://charlieyuchi.github.io/post/test_article/</link>
-      <pubDate>Sun, 09 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://charlieyuchi.github.io/post/test_article/</guid>
-      <description></description>
-    </item>
     <item>
       <title>[LCS] Longest Common Subsequence演算法</title>
       <link>https://charlieyuchi.github.io/post/lcs-longest-common-subsequence%E6%BC%94%E7%AE%97%E6%B3%95/</link>
