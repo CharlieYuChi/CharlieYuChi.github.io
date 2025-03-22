@@ -5,7 +5,7 @@ description: ""
 date:        2025-02-13
 author:      "Yuchi"
 image:       ""
-tags:        ["tag1", "tag2"]
+tags:        ["github", "hugo"]
 categories:  ["Tech" ]
 draft: false
 ---

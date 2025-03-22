@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mac on Yuchi Site</title>
+    <link>http://localhost:1313/tags/mac/</link>
+    <description>Recent content in Mac on Yuchi Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo 安裝(Mac)</title>
+      <link>http://localhost:1313/post/post2/</link>
+      <pubDate>Sun, 09 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/post2/</guid>
+      <description>&lt;h1 id=&#34;如何在macbook環境安裝hugo-套件&#34;&gt;如何在Macbook環境安裝Hugo 套件&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;開啟啟動台&lt;/li&gt;&#xA;&lt;li&gt;打開終端機&lt;/li&gt;&#xA;&lt;li&gt;在終端機輸入&#xA;&lt;ul&gt;&#xA;&lt;li&gt;brew install hugo&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -5,8 +5,8 @@ description: ""
 date:        2025-03-05
 author:      "Yuchi"
 image:       ""
-tags:        ["tag1", "tag2"]
-categories:  ["Tech" ]
+tags:        ["algo."]
+categories:  ["Tech"]
 draft: false
 ---
 

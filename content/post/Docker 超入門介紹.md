@@ -5,8 +5,8 @@ description: ""
 date:        2025-02-24
 author:      "Yuchi"
 image:       ""
-tags:        ["tag1", "tag2"]
-categories:  ["Tech" ]
+tags:        ["docker"]
+categories:  ["Tech"]
 draft: false
 ---
 
