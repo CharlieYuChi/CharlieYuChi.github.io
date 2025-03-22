@@ -10,8 +10,6 @@ categories:  ["Tech"]
 draft: false
 ---
 
-# \[LCS\] Longest Common Subsequence演算法
-
 給定兩個字串s1和s2，這個演算法可以幫助我們找到兩個字串的最長共同子序列。
 
 如果我們想要判斷兩個字串的最長的共同子序列，可以按照這樣下去思考。
