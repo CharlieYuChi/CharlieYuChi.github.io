@@ -15,9 +15,9 @@
     
 
     
-    <meta name="title" content="Hugo 安裝(Mac)" />
-    <meta property="og:title" content="Hugo 安裝(Mac)" />
-    <meta property="twitter:title" content="Hugo 安裝(Mac)" />
+    <meta name="title" content="" />
+    <meta property="og:title" content="" />
+    <meta property="twitter:title" content="" />
     
 
     
@@ -34,9 +34,9 @@
     <meta name="keyword"  content="">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>Hugo 安裝(Mac) | </title>
+    <title>Algo. | </title>
 
-    <link rel="canonical" href="/post/post2/">
+    <link rel="canonical" href="/tags/algo./">
 
     
     
@@ -149,45 +149,14 @@
 
 
 
-
-<style type="text/css">
-    header.intro-header {
-        background-image: url('/')
-    }
-</style>
-
-<header class="intro-header" >
-
+<header class="intro-header" style="background-image: url('/')">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-heading">
-                    <div class="tags">
-                        
-                        <a class="tag" href="/tags/hugo" title="hugo">
-                            hugo
-                        </a>
-                        
-                        <a class="tag" href="/tags/mac" title="mac">
-                            mac
-                        </a>
-                        
-                    </div>
-                    <h1>Hugo 安裝(Mac)</h1>
-                    <h2 class="subheading"></h2>
-                    <span class="meta">
-                        
-                            Posted by 
-                            
-                                     &#34;Yuchi&#34;
-                             
-                            on 
-                            Sunday, February 9, 2025
-                            
-                            
-                            
-                            
-                    </span>
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
+                <div class="site-heading">
+                    <h1>Yuchi Site </h1>
+                    
+		    <span class="subheading"></span>
                 </div>
             </div>
         </div>
@@ -196,89 +165,99 @@
 
 
 
-
-<article>
-    <div class="container">
-        <div class="row">
-
+  
+<div data-pagefind-ignore="all" class="container">
+    <div class="row">
+        
+        
+   	    <div class="
+            col-lg-8 col-lg-offset-1
+            col-md-8 col-md-offset-1
+            col-sm-12
+            col-xs-12
+            post-container
+        ">
             
-            <div class="
-                col-lg-8 col-lg-offset-2
-                col-md-10 col-md-offset-1
-                post-container">
+<div data-pagefind-ignore="all">
 
-                
-                <h1 id="如何在macbook環境安裝hugo-套件">如何在Macbook環境安裝Hugo 套件</h1>
-<ol>
-<li>開啟啟動台</li>
-<li>打開終端機</li>
-<li>在終端機輸入
-<ul>
-<li>brew install hugo</li>
-</ul>
-</li>
-</ol>
-
-
-                
-
-                
-                <hr>
-                <ul class="pager">
-                    
-                    <li class="previous">
-                        <a href="/post/my-first-post/" data-toggle="tooltip" data-placement="top" title="An Example Post">&larr;
-                            Previous Post</a>
-                    </li>
-                    
-                    
-                    <li class="next">
-                        <a href="/post/hugo_github/" data-toggle="tooltip" data-placement="top" title="hugo &#43; github">Next
-                            Post &rarr;</a>
-                    </li>
-                    
-                </ul>
-                
-
-                
-
-
-
-
-            </div>
-
-            
-            
-            <div class="
-                col-lg-2 col-lg-offset-0
-                visible-lg-block
-                sidebar-container
-                catalog-container">
-                <div class="side-catalog">
-                    <hr class="hidden-sm hidden-xs">
-                    <h5>
-                        <a class="catalog-toggle" href="#">CATALOG</a>
-                    </h5>
-                    <ul class="catalog-body"></ul>
-                </div>
-            </div>
-            
-
-            
-            <div class="
-                col-lg-8 col-lg-offset-2
-                col-md-10 col-md-offset-1
-                sidebar-container">
-
-                
-                
-
-                
-                
-            </div>
+<div class="post-preview">
+    <a href="https://charlieyuchi.github.io/post/lcs-longest-common-subsequence%E6%BC%94%E7%AE%97%E6%B3%95/">
+        <h2 class="post-title">
+            [LCS] Longest Common Subsequence演算法
+        </h2>
+	
+        <div class="post-content-preview">
+	
+            <h1 id="lcs-longest-common-subsequence演算法">[LCS] Longest Common Subsequence演算法</h1>
+<p>給定兩個字串s1和s2，這個演算法可以幫助我們找到兩個字串的最長共同子序列。</p>
+<p>如果我們想要判斷兩個字串的最長的共同子序列，可以按照這樣下去思考。</p>
+<p>我們從s1和s2的最右端開始去思考</p>
+<p>假設s1的長度為m，s2的長度為n</p>
+<p>現在判斷s1[m - 1]和s2[n - 1]是否不一樣</p>
+<p>如果一樣我們可以判定s1[m - 1]和s2[n - 1]屬於共同子序列的一員，這時候共同子序列總長度可以加一。</p>
+<p>那如果不一樣，就要考慮三個情況：</p>
+<p>第一個是把s1最後一個字去掉然後和s2去找最長共同子序列。</p>
+<p>第二個是把s2最後一個字去掉然後去跟s1找最長共同子序列。</p>
+<p>第三個是把s1最後一個字去掉和s2最後一個字去掉去找最長共同子序列。</p>
+<p>不過其實只要考慮前兩個情況就好了，因為長度越長的字串越有可能出現越長的共同子序列。</p>
+<p>所以現在已經處理完兩個字串的判斷邏輯了，最後就要來處理我們字串的判斷的終止條件是什麼？</p>
+<p>停止的條件很簡單就是當其中一個字串已經是空的了，那當然就不會有共同子序列了，這時最長共同子序列的長度就是0。</p>
+<p>以下是python的實作，@lru_cache是python中的快取機制，作用就像是memo一樣，只要我們call lcs時傳入的參數是一樣的就會直接回傳一樣的結果，可以用來節省時間。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#a6e22e">@lru_cache</span>(maxsize<span style="color:#f92672">=</span><span style="color:#66d9ef">None</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">lcs</span>(w1, w2, i, j):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> i <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">or</span> j <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> w1[i <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>] <span style="color:#f92672">==</span> w2[j <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>]:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> lcs(w1, w2, i <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>, j <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> max(lcs(w1, w2, i <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>, j), lcs(w1, w2, i, j <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>))
+</span></span></code></pre></div>
+       
         </div>
-    </div>
-</article>
+    </a>
+    <p class="post-meta">
+    
+        Posted by      &#34;Yuchi&#34; on Wednesday, March 5, 2025
+        
+        
+    
+    </p>
+
+</div>
+<hr>
+
+</div>
+
+            
+
+
+
+       	</div>
+        
+
+<div class="
+    col-lg-3 col-lg-offset-0
+    col-md-3 col-md-offset-0
+    col-sm-12
+    col-xs-12
+    sidebar-container
+">
+    
+	
+    
+    
+    
+    
+
+    
+    
+    
+</div>
+
+	</div>
+</div>
+
 
 
 
