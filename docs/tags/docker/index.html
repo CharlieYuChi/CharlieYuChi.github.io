@@ -10,8 +10,8 @@
     <meta property="og:type" content="article">
 
     
-    <meta property="og:image" content="https://charlieyuchi.github.io//">
-    <meta property="twitter:image" content="https://charlieyuchi.github.io//" />
+    <meta property="og:image" content="https://charlieyuchi.github.io//img/header.png">
+    <meta property="twitter:image" content="https://charlieyuchi.github.io//img/header.png" />
     
 
     
@@ -31,10 +31,10 @@
     
     
 
-    <meta name="keyword"  content="">
+    <meta name="keyword"  content="yuchi">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>Docker | </title>
+    <title>Docker | Yuchi Blog</title>
 
     <link rel="canonical" href="/tags/docker/">
 
@@ -108,6 +108,12 @@
                     
                     
 		    
+                        <li><a href="/archive//">ARCHIVE</a></li>
+                    
+                        <li><a href="/notes//">NOTES</a></li>
+                    
+                        <li><a href="/about//">ABOUT</a></li>
+                    
 		            <li>
                         <a href="/search"><i class="fa fa-search"></i></a>
 		           </li>
@@ -149,7 +155,7 @@
 
 
 
-<header class="intro-header" style="background-image: url('/')">
+<header class="intro-header" style="background-image: url('/img/header.png')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
@@ -188,72 +194,8 @@
 	
         <div class="post-content-preview">
 	
-            <h1 id="docker-超入門介紹">Docker 超入門介紹</h1>
-<h2 id="docker情境介紹">Docker情境介紹</h2>
+            <h2 id="docker情境介紹">Docker情境介紹</h2>
 <p>想想今天我們在自己的Linux電腦上面開發了一個python寫的AI 程式，為了把這個python程式run起來，我們費盡心力弄好了環境，才讓它能順利的運作。在你終於能夠鬆一口氣後，主管跟你說，另一台電腦也想要用一樣AI程式，你會心想天啊，同樣的環境設定地獄又要再來一次！</p>
-<p>這時候就要介紹Docker出場了，Docker 是一種<strong>容器技術</strong>，可以讓你的應用程式和其環境（包含程式碼、依賴、設定等）一起打包，確保它能夠在不同的平台上運行，而不受環境變化影響。</p>
-<p>Docker就是我的環境設定超人！</p>
-<p>介紹完Docker功用的背景，接著簡單介紹我目前學到的三個最基礎的必備名詞以及它們的關係。</p>
-<p>這三個名詞分別是<strong>Dockerfile</strong>、<strong>Image</strong>和<strong>Container</strong>。</p>
-<h2 id="dockerfile-是什麼"><strong>Dockerfile 是什麼？</strong></h2>
-<h3 id="dockerfile-是一個文字檔包含了一系列指令告訴-docker-如何構建一個-image"><strong>Dockerfile 是一個文字檔</strong>，包含了一系列指令，告訴 Docker <strong>如何構建一個 Image</strong>。</h3>
-<h3 id="dockerfile-與-image-的關係"><strong>Dockerfile 與 Image 的關係</strong></h3>
-<ul>
-<li>
-<p>Dockerfile 是 Image 的「食譜」</p>
-</li>
-<li>
-<p>Image 是根據 Dockerfile「烹飪」出來的結果</p>
-</li>
-<li>
-<p>Docker 會根據 Dockerfile 的指令，逐步創建一個 <strong>Image</strong>。</p>
-</li>
-</ul>
-<h2 id="image-是什麼">Image 是什麼？</h2>
-<h3 id="可以看作是程式的安裝檔案安裝檔案裡面要裝什麼都已經定義好了是不能改變的可以看成就是一個exe檔或dmg">可以看作是程式的安裝檔案，安裝檔案裡面要裝什麼都已經定義好了是不能改變的，可以看成就是一個.exe檔或.dmg。</h3>
-<ul>
-<li>
-<p>Docker <strong>Image</strong> 是 <strong>一個不可變的模版</strong>，包含應用程式及其運行環境</p>
-<ul>
-<li>
-<p>運行環境包含以下</p>
-<ul>
-<li>
-<p>作業系統（Linux）</p>
-</li>
-<li>
-<p>應用程式（Python, Node.js, etc.）</p>
-</li>
-<li>
-<p>依賴（套件、函式庫）</p>
-</li>
-<li>
-<p>環境變數</p>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>它<strong>不能直接運行</strong>，但可以用來啟動<strong>容器（Container）</strong>。</p>
-</li>
-</ul>
-<h2 id="container是什麼">Container是什麼？</h2>
-<h3 id="可以看成是正在運行的程式程式內容就是照著image內定義好的內容下去跑就像是程序管理員中一個在跑的程序一樣">可以看成是正在運行的程式，程式內容就是照著Image內定義好的內容下去跑，就像是程序管理員中一個在跑的程序一樣。</h3>
-<ul>
-<li>
-<p>Docker <strong>Container（容器）</strong> 是 <strong>從 Image 啟動的執行實例</strong>，它包含了運行應用所需的一切環境。</p>
-</li>
-<li>
-<p>你可以<strong>創建、運行、停止、刪除</strong>容器，但容器本身是可變的（可以寫入資料）。</p>
-</li>
-<li>
-<p>你可以從同一個 Image 啟動多個 Container，就像你可以打開多個相同的應用程式視窗一樣。</p>
-</li>
-</ul>
-<h2 id="小結">小結</h2>
-<p>我們可以這樣看Dockerfile、Image與Container，如果以寫程式來比喻的話，Dockerfile就是我們的原始碼，Image就是編譯完變成一包的執行檔，Container就是電腦正在執行中的執行檔。
-拉回到我們最初的目標就是希望我們寫的那個AI程式能夠跟著設定好的環境順利運作，這個部分就能與上面的例子對應就是把環境與程式都透過Dockerfile設定好，編譯成一個Image，最後我們只要運作一個裝著這個Image的Container就能成功跑起我們的AI程式了！</p>
        
         </div>
     </a>
@@ -286,9 +228,95 @@
 ">
     
 	
+    <section class="visible-md visible-lg">
+	
+        <div class="short-about">
+            
+            <a href="/about">
+               <img src="/img/avatar.png" alt="avatar" style="cursor: pointer" />
+            </a>
+            
+            
+                <p>Hello Software & Blog</p>
+            
+           
+           <ul class="list-inline">
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+            
+            
+               
+               
+               
+               
+                </ul>
+            </div>
+    </section>
+	
     
     
     
+    
+    <section>
+        <hr class="hidden-sm hidden-xs">
+        <h5>FEATURED TAGS</h5>
+        <div class="tags">
+            
+            
+               
+                    <a href="/tags/algo." title="algo.">
+                        algo.
+                    </a>
+               
+            
+               
+                    <a href="/tags/docker" title="docker">
+                        docker
+                    </a>
+               
+            
+               
+                    <a href="/tags/github" title="github">
+                        github
+                    </a>
+               
+            
+               
+                    <a href="/tags/hugo" title="hugo">
+                        hugo
+                    </a>
+               
+            
+               
+                    <a href="/tags/mac" title="mac">
+                        mac
+                    </a>
+               
+            
+               
+                    <a href="/tags/tag1" title="tag1">
+                        tag1
+                    </a>
+               
+            
+               
+                    <a href="/tags/tag2" title="tag2">
+                        tag2
+                    </a>
+               
+            
+        </div>
+    </section>
     
 
     
@@ -330,9 +358,26 @@
             
             
            
+                   <li>
+                       <a href='/tags/docker/index.xml' rel="alternate" type="application/rss+xml" title="Yuchi Site" >
+                           <span class="fa-stack fa-lg">
+                               <i class="fas fa-circle fa-stack-2x"></i>
+                               <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+                           </span>
+                       </a>
+                   </li>
+            
              </ul>
 		<p class="copyright text-muted">
                     Copyright &copy; Yuchi Site 2025
+                    
+                    <br>
+                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=zhaohuabing&repo=hugo-theme-cleanwhite&type=star&count=true" >
+                    </iframe>
                     
                 </p>
             </div>
