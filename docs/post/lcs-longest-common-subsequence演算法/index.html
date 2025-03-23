@@ -10,8 +10,8 @@
     <meta property="og:type" content="article">
 
     
-    <meta property="og:image" content="https://charlieyuchi.github.io//">
-    <meta property="twitter:image" content="https://charlieyuchi.github.io//" />
+    <meta property="og:image" content="https://charlieyuchi.github.io//img/header.png">
+    <meta property="twitter:image" content="https://charlieyuchi.github.io//img/header.png" />
     
 
     
@@ -31,10 +31,10 @@
     
     
 
-    <meta name="keyword"  content="">
+    <meta name="keyword"  content="yuchi">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>[LCS] Longest Common Subsequence演算法 | </title>
+    <title>[LCS] Longest Common Subsequence演算法 | Yuchi Blog</title>
 
     <link rel="canonical" href="/post/lcs-longest-common-subsequence%E6%BC%94%E7%AE%97%E6%B3%95/">
 
@@ -108,6 +108,12 @@
                     
                     
 		    
+                        <li><a href="/archive//">ARCHIVE</a></li>
+                    
+                        <li><a href="/notes//">NOTES</a></li>
+                    
+                        <li><a href="/about//">ABOUT</a></li>
+                    
 		            <li>
                         <a href="/search"><i class="fa fa-search"></i></a>
 		           </li>
@@ -152,7 +158,7 @@
 
 <style type="text/css">
     header.intro-header {
-        background-image: url('/')
+        background-image: url('/img/header.png')
     }
 </style>
 
@@ -204,8 +210,7 @@
                 post-container">
 
                 
-                <h1 id="lcs-longest-common-subsequence演算法">[LCS] Longest Common Subsequence演算法</h1>
-<p>給定兩個字串s1和s2，這個演算法可以幫助我們找到兩個字串的最長共同子序列。</p>
+                <p>給定兩個字串s1和s2，這個演算法可以幫助我們找到兩個字串的最長共同子序列。</p>
 <p>如果我們想要判斷兩個字串的最長的共同子序列，可以按照這樣下去思考。</p>
 <p>我們從s1和s2的最右端開始去思考</p>
 <p>假設s1的長度為m，s2的長度為n</p>
@@ -219,15 +224,15 @@
 <p>所以現在已經處理完兩個字串的判斷邏輯了，最後就要來處理我們字串的判斷的終止條件是什麼？</p>
 <p>停止的條件很簡單就是當其中一個字串已經是空的了，那當然就不會有共同子序列了，這時最長共同子序列的長度就是0。</p>
 <p>以下是python的實作，@lru_cache是python中的快取機制，作用就像是memo一樣，只要我們call lcs時傳入的參數是一樣的就會直接回傳一樣的結果，可以用來節省時間。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#a6e22e">@lru_cache</span>(maxsize<span style="color:#f92672">=</span><span style="color:#66d9ef">None</span>)
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">lcs</span>(w1, w2, i, j):
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> i <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">or</span> j <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>:
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>@lru_cache(maxsize<span style="color:#ff79c6">=</span><span style="color:#ff79c6">None</span>)
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">def</span> <span style="color:#50fa7b">lcs</span>(w1, w2, i, j):
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">if</span> i <span style="color:#ff79c6">==</span> <span style="color:#bd93f9">0</span> <span style="color:#ff79c6">or</span> j <span style="color:#ff79c6">==</span> <span style="color:#bd93f9">0</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">return</span> <span style="color:#bd93f9">0</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> w1[i <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>] <span style="color:#f92672">==</span> w2[j <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>]:
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> lcs(w1, w2, i <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>, j <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> max(lcs(w1, w2, i <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>, j), lcs(w1, w2, i, j <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>))
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">if</span> w1[i <span style="color:#ff79c6">-</span> <span style="color:#bd93f9">1</span>] <span style="color:#ff79c6">==</span> w2[j <span style="color:#ff79c6">-</span> <span style="color:#bd93f9">1</span>]:
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">return</span> lcs(w1, w2, i <span style="color:#ff79c6">-</span> <span style="color:#bd93f9">1</span>, j <span style="color:#ff79c6">-</span> <span style="color:#bd93f9">1</span>) <span style="color:#ff79c6">+</span> <span style="color:#bd93f9">1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">else</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">return</span> <span style="color:#8be9fd;font-style:italic">max</span>(lcs(w1, w2, i <span style="color:#ff79c6">-</span> <span style="color:#bd93f9">1</span>, j), lcs(w1, w2, i, j <span style="color:#ff79c6">-</span> <span style="color:#bd93f9">1</span>))
 </span></span></code></pre></div>
 
                 
@@ -248,6 +253,23 @@
                 
 
 
+
+
+<link href="https://xxx.xxx.com/dist/Artalk.css" rel="stylesheet" />
+<script src="https://xxx.xxx.com/dist/Artalk.js"></script>
+
+
+<div id="Comments"></div>
+
+<script>
+    Artalk.init({
+        el: '#Comments',
+        pageKey: 'https:\/\/charlieyuchi.github.io\/post\/lcs-longest-common-subsequence%E6%BC%94%E7%AE%97%E6%B3%95\/',
+        pageTitle: '[LCS] Longest Common Subsequence演算法',
+        server: 'https:\/\/xxx.xxx.com',
+        site: 'xxx blog',
+    })
+</script>
 
 
             </div>
@@ -276,6 +298,57 @@
                 sidebar-container">
 
                 
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                        
+                        
+                        
+                        <a href="/tags/algo." title="algo.">
+                            algo.
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/docker" title="docker">
+                            docker
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/github" title="github">
+                            github
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/hugo" title="hugo">
+                            hugo
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/mac" title="mac">
+                            mac
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/tag1" title="tag1">
+                            tag1
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/tag2" title="tag2">
+                            tag2
+                        </a>
+                        
+                        
+                    </div>
+                </section>
                 
 
                 
@@ -315,9 +388,26 @@
             
             
            
+                   <li>
+                       <a href='' rel="alternate" type="application/rss+xml" title="Yuchi Site" >
+                           <span class="fa-stack fa-lg">
+                               <i class="fas fa-circle fa-stack-2x"></i>
+                               <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+                           </span>
+                       </a>
+                   </li>
+            
              </ul>
 		<p class="copyright text-muted">
                     Copyright &copy; Yuchi Site 2025
+                    
+                    <br>
+                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=zhaohuabing&repo=hugo-theme-cleanwhite&type=star&count=true" >
+                    </iframe>
                     
                 </p>
             </div>

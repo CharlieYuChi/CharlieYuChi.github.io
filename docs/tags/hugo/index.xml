@@ -13,21 +13,21 @@
       <link>https://charlieyuchi.github.io/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git-%E6%9E%B6%E7%AB%99/</link>
       <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://charlieyuchi.github.io/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git-%E6%9E%B6%E7%AB%99/</guid>
-      <description>&lt;h1 id=&#34;如何使用git-架站&#34;&gt;如何使用git 架站&lt;/h1&gt;&#xA;&lt;p&gt;使用 &lt;strong&gt;GitHub&lt;/strong&gt; 來架設網站是一個方便又免費的選擇，特別適合個人作品集、部落格或專案文件。GitHub 提供 &lt;strong&gt;GitHub Pages&lt;/strong&gt;，可以將儲存庫中的靜態網頁（如 HTML、CSS、JavaScript）直接部署成一個公開可訪問的網站。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;如何使用 GitHub 架設網站的步驟&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;方法 1：使用 GitHub Pages 部署靜態網站&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;這種方法適合單純的靜態網站（HTML、CSS、JavaScript），適合新手使用。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;步驟 1：建立 GitHub 儲存庫&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;1. 登入 &lt;a href=&#34;https://github.com&#34;&gt;GitHub&lt;/a&gt;。&lt;/p&gt;&#xA;&lt;p&gt;2. 點擊「&lt;strong&gt;New Repository&lt;/strong&gt;」建立一個新的儲存庫。&lt;/p&gt;&#xA;&lt;p&gt;3. 命名儲存庫，例如 my-website，選擇「Public」，並勾選「Add a README file」。&lt;/p&gt;&#xA;&lt;p&gt;4. 點擊「Create Repository」。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;步驟 2：上傳或建立網頁文件&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;1. 進入儲存庫，點擊「&lt;strong&gt;Add file → Upload files&lt;/strong&gt;」，上傳你的 HTML、CSS、JavaScript 文件，或直接在線上編輯。&lt;/p&gt;&#xA;&lt;p&gt;2. 建立一個 index.html 作為網站的首頁，內容範例如下：&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;&#xA;&amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt;&#xA;&amp;lt;head&amp;gt;&#xA;    &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt;&#xA;    &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width, initial-scale=1.0&amp;#34;&amp;gt;&#xA;    &amp;lt;title&amp;gt;My GitHub Website&amp;lt;/title&amp;gt;&#xA;&amp;lt;/head&amp;gt;&#xA;&amp;lt;body&amp;gt;&#xA;    &amp;lt;h1&amp;gt;歡迎來到我的 GitHub Pages 網站！&amp;lt;/h1&amp;gt;&#xA;    &amp;lt;p&amp;gt;這是一個靜態網站示範。&amp;lt;/p&amp;gt;&#xA;&amp;lt;/body&amp;gt;&#xA;&amp;lt;/html&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;步驟 3：啟用 GitHub Pages&lt;/strong&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;使用 &lt;strong&gt;GitHub&lt;/strong&gt; 來架設網站是一個方便又免費的選擇，特別適合個人作品集、部落格或專案文件。GitHub 提供 &lt;strong&gt;GitHub Pages&lt;/strong&gt;，可以將儲存庫中的靜態網頁（如 HTML、CSS、JavaScript）直接部署成一個公開可訪問的網站。&lt;/p&gt;</description>
     </item>
     <item>
       <title>hugo &#43; github</title>
       <link>https://charlieyuchi.github.io/post/hugo_github/</link>
       <pubDate>Sun, 09 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://charlieyuchi.github.io/post/hugo_github/</guid>
-      <description>&lt;h1 id=&#34;hugo--github&#34;&gt;hugo + github&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;baseURL 如果打錯會造成裡面的連結錯誤&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;e.g. xxx.github.io 打成 xxx.io.github&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;網站修改完upload流程&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;terminal&#xA;&lt;ol&gt;&#xA;&lt;li&gt;$: hugo&#xA;&lt;ol&gt;&#xA;&lt;li&gt;生成新的網頁到/public&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;在/my-hugo-site&#xA;&lt;ol&gt;&#xA;&lt;li&gt;把/public中的網頁拉出來到./&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;git commit + push 拉出來的網頁&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;baseURL 如果打錯會造成裡面的連結錯誤&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;e.g. xxx.github.io 打成 xxx.io.github&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;網站修改完upload流程&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;terminal&#xA;&lt;ol&gt;&#xA;&lt;li&gt;$: hugo&#xA;&lt;ol&gt;&#xA;&lt;li&gt;生成新的網頁到/public&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;在/my-hugo-site&#xA;&lt;ol&gt;&#xA;&lt;li&gt;把/public中的網頁拉出來到./&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;git commit + push 拉出來的網頁&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Hugo 安裝(Mac)</title>
+      <title>如何在Macbook環境安裝Hugo 套件</title>
       <link>https://charlieyuchi.github.io/post/post2/</link>
       <pubDate>Sun, 09 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://charlieyuchi.github.io/post/post2/</guid>
-      <description>&lt;h1 id=&#34;如何在macbook環境安裝hugo-套件&#34;&gt;如何在Macbook環境安裝Hugo 套件&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;開啟啟動台&lt;/li&gt;&#xA;&lt;li&gt;打開終端機&lt;/li&gt;&#xA;&lt;li&gt;在終端機輸入&#xA;&lt;ul&gt;&#xA;&lt;li&gt;brew install hugo&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;開啟啟動台&lt;/li&gt;&#xA;&lt;li&gt;打開終端機&lt;/li&gt;&#xA;&lt;li&gt;在終端機輸入&#xA;&lt;ul&gt;&#xA;&lt;li&gt;brew install hugo&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
   </channel>
 </rss>
