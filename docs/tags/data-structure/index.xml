@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Structure on Yuchi Site</title>
+    <link>https://charlieyuchi.github.io/tags/data-structure/</link>
+    <description>Recent content in Data Structure on Yuchi Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://charlieyuchi.github.io/tags/data-structure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>資料結構與演算法感想</title>
+      <link>https://charlieyuchi.github.io/post/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B%E8%88%87%E6%BC%94%E7%AE%97%E6%B3%95%E6%84%9F%E6%83%B3/</link>
+      <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://charlieyuchi.github.io/post/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B%E8%88%87%E6%BC%94%E7%AE%97%E6%B3%95%E6%84%9F%E6%83%B3/</guid>
+      <description>&lt;p&gt;本篇文章是個人對資料結構與演算法之間關係的一些心得，目的是釐清為什麼在電腦科學領域，我們需要學習這兩個科目，這兩個科目對於電腦有什麼樣的關係。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
