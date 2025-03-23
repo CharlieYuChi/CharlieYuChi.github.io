@@ -9,6 +9,7 @@ tags:        ["github", "hugo"]
 categories:  ["Tech"]
 draft: false
 ---
+# hugo + github
 
 1. baseURL 如果打錯會造成裡面的連結錯誤
    1. e.g. xxx.github.io 打成 xxx.io.github

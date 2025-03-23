@@ -1,5 +1,5 @@
 ---
-title:       "如何在Macbook環境安裝Hugo 套件"
+title:       "Hugo 安裝(Mac)"
 subtitle:    ""
 description: ""
 date:        2025-02-09
@@ -9,6 +9,8 @@ tags:        ["hugo", "mac"]
 categories:  ["Tech"]
 draft: false
 ---
+
+# 如何在Macbook環境安裝Hugo 套件
 
 1. 開啟啟動台
 2. 打開終端機
