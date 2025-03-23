@@ -50,12 +50,5 @@
       <guid>https://charlieyuchi.github.io/post/post2/</guid>
       <description>&lt;ol&gt;&#xA;&lt;li&gt;開啟啟動台&lt;/li&gt;&#xA;&lt;li&gt;打開終端機&lt;/li&gt;&#xA;&lt;li&gt;在終端機輸入&#xA;&lt;ul&gt;&#xA;&lt;li&gt;brew install hugo&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
-    <item>
-      <title>An Example Post</title>
-      <link>https://charlieyuchi.github.io/post/my-first-post/</link>
-      <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://charlieyuchi.github.io/post/my-first-post/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
