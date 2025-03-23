@@ -9,7 +9,6 @@ tags:        ["github", "hugo"]
 categories:  ["Tech" ]
 draft: false
 ---
-# 如何使用git 架站
 
 使用 **GitHub** 來架設網站是一個方便又免費的選擇，特別適合個人作品集、部落格或專案文件。GitHub 提供 **GitHub Pages**，可以將儲存庫中的靜態網頁（如 HTML、CSS、JavaScript）直接部署成一個公開可訪問的網站。
 
