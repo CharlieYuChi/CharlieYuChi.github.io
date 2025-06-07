@@ -3,7 +3,7 @@ title:       "Docker 超入門介紹"
 subtitle:    ""
 description: ""
 date:        2025-02-24
-author:      "Yuchi"
+author:      Yuchi
 image:       ""
 tags:        ["docker"]
 categories:  ["Tech"]

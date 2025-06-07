@@ -3,7 +3,7 @@ title:       "如何使用git 架站"
 subtitle:    ""
 description: ""
 date:        2025-02-13
-author:      "Yuchi"
+author:      Yuchi
 image:       ""
 tags:        ["github", "hugo"]
 categories:  ["Tech" ]

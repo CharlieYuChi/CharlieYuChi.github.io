@@ -3,7 +3,7 @@ title:       "如何在Macbook環境安裝Hugo 套件"
 subtitle:    ""
 description: ""
 date:        2025-02-09
-author:      "Yuchi"
+author:      Yuchi
 image:       ""
 tags:        ["hugo", "mac"]
 categories:  ["Tech"]

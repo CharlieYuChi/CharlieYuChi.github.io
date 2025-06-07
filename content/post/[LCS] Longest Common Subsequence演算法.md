@@ -3,7 +3,7 @@ title:       "[LCS] Longest Common Subsequence演算法"
 subtitle:    ""
 description: ""
 date:        2025-03-05
-author:      "Yuchi"
+author:      Yuchi
 image:       ""
 tags:        ["algo."]
 categories:  ["Tech"]

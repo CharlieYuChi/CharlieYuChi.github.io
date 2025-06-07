@@ -3,7 +3,7 @@ title:       "hugo + github"
 subtitle:    ""
 description: ""
 date:        2025-02-09
-author:      "Yuchi"
+author:      Yuchi
 image:       ""
 tags:        ["github", "hugo"]
 categories:  ["Tech"]
