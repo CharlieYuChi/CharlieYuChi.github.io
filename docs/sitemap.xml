@@ -2,68 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://charlieyuchi.github.io/tags/algo./</loc>
+    <loc>http://localhost:1313/tags/algo./</loc>
     <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://charlieyuchi.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://charlieyuchi.github.io/tags/data-structure/</loc>
+    <loc>http://localhost:1313/tags/data-structure/</loc>
     <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://charlieyuchi.github.io/post/</loc>
+    <loc>http://localhost:1313/post/</loc>
     <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://charlieyuchi.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://charlieyuchi.github.io/categories/tech/</loc>
+    <loc>http://localhost:1313/categories/tech/</loc>
     <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://charlieyuchi.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://charlieyuchi.github.io/post/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B%E8%88%87%E6%BC%94%E7%AE%97%E6%B3%95%E6%84%9F%E6%83%B3/</loc>
+    <loc>http://localhost:1313/post/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B%E8%88%87%E6%BC%94%E7%AE%97%E6%B3%95%E6%84%9F%E6%83%B3/</loc>
     <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://charlieyuchi.github.io/post/lcs-longest-common-subsequence%E6%BC%94%E7%AE%97%E6%B3%95/</loc>
+    <loc>http://localhost:1313/post/lcs-longest-common-subsequence%E6%BC%94%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2025-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://charlieyuchi.github.io/tags/docker/</loc>
+    <loc>http://localhost:1313/tags/docker/</loc>
     <lastmod>2025-02-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://charlieyuchi.github.io/post/docker-%E8%B6%85%E5%85%A5%E9%96%80%E4%BB%8B%E7%B4%B9/</loc>
+    <loc>http://localhost:1313/post/docker-%E8%B6%85%E5%85%A5%E9%96%80%E4%BB%8B%E7%B4%B9/</loc>
     <lastmod>2025-02-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://charlieyuchi.github.io/tags/github/</loc>
+    <loc>http://localhost:1313/tags/github/</loc>
     <lastmod>2025-02-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://charlieyuchi.github.io/tags/hugo/</loc>
+    <loc>http://localhost:1313/tags/hugo/</loc>
     <lastmod>2025-02-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://charlieyuchi.github.io/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git-%E6%9E%B6%E7%AB%99/</loc>
+    <loc>http://localhost:1313/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git-%E6%9E%B6%E7%AB%99/</loc>
     <lastmod>2025-02-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://charlieyuchi.github.io/post/hugo_github/</loc>
+    <loc>http://localhost:1313/post/hugo_github/</loc>
     <lastmod>2025-02-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://charlieyuchi.github.io/tags/mac/</loc>
+    <loc>http://localhost:1313/tags/mac/</loc>
     <lastmod>2025-02-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://charlieyuchi.github.io/post/post2/</loc>
+    <loc>http://localhost:1313/post/post2/</loc>
     <lastmod>2025-02-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://charlieyuchi.github.io/post/my-first-post/</loc>
+    <loc>http://localhost:1313/post/my-first-post/</loc>
     <lastmod>2025-02-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://charlieyuchi.github.io/tags/tag1/</loc>
+    <loc>http://localhost:1313/post/reading_notes/</loc>
     <lastmod>2025-02-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://charlieyuchi.github.io/tags/tag2/</loc>
+    <loc>http://localhost:1313/post/thoughts/</loc>
     <lastmod>2025-02-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://charlieyuchi.github.io/about/</loc>
+    <loc>http://localhost:1313/categories/reading-notes/</loc>
+    <lastmod>2025-02-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://charlieyuchi.github.io/archive/</loc>
+    <loc>http://localhost:1313/tags/tag1/</loc>
+    <lastmod>2025-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tag2/</loc>
+    <lastmod>2025-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/thoughts/</loc>
+    <lastmod>2025-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
+  </url><url>
+    <loc>http://localhost:1313/archive/</loc>
+  </url><url>
+    <loc>http://localhost:1313/archive/archive/</loc>
   </url>
 </urlset>

@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on Yuchi Site</title>
-    <link>https://charlieyuchi.github.io/tags/hugo/</link>
+    <link>http://localhost:1313/tags/hugo/</link>
     <description>Recent content in Hugo on Yuchi Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 13 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://charlieyuchi.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何使用git 架站</title>
-      <link>https://charlieyuchi.github.io/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git-%E6%9E%B6%E7%AB%99/</link>
+      <link>http://localhost:1313/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git-%E6%9E%B6%E7%AB%99/</link>
       <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://charlieyuchi.github.io/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git-%E6%9E%B6%E7%AB%99/</guid>
+      <guid>http://localhost:1313/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git-%E6%9E%B6%E7%AB%99/</guid>
       <description>&lt;p&gt;使用 &lt;strong&gt;GitHub&lt;/strong&gt; 來架設網站是一個方便又免費的選擇，特別適合個人作品集、部落格或專案文件。GitHub 提供 &lt;strong&gt;GitHub Pages&lt;/strong&gt;，可以將儲存庫中的靜態網頁（如 HTML、CSS、JavaScript）直接部署成一個公開可訪問的網站。&lt;/p&gt;</description>
     </item>
     <item>
       <title>hugo &#43; github</title>
-      <link>https://charlieyuchi.github.io/post/hugo_github/</link>
+      <link>http://localhost:1313/post/hugo_github/</link>
       <pubDate>Sun, 09 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://charlieyuchi.github.io/post/hugo_github/</guid>
+      <guid>http://localhost:1313/post/hugo_github/</guid>
       <description>&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;baseURL 如果打錯會造成裡面的連結錯誤&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;e.g. xxx.github.io 打成 xxx.io.github&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;網站修改完upload流程&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;terminal&#xA;&lt;ol&gt;&#xA;&lt;li&gt;$: hugo&#xA;&lt;ol&gt;&#xA;&lt;li&gt;生成新的網頁到/public&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;在/my-hugo-site&#xA;&lt;ol&gt;&#xA;&lt;li&gt;把/public中的網頁拉出來到./&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;git commit + push 拉出來的網頁&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
       <title>如何在Macbook環境安裝Hugo 套件</title>
-      <link>https://charlieyuchi.github.io/post/post2/</link>
+      <link>http://localhost:1313/post/post2/</link>
       <pubDate>Sun, 09 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://charlieyuchi.github.io/post/post2/</guid>
+      <guid>http://localhost:1313/post/post2/</guid>
       <description>&lt;ol&gt;&#xA;&lt;li&gt;開啟啟動台&lt;/li&gt;&#xA;&lt;li&gt;打開終端機&lt;/li&gt;&#xA;&lt;li&gt;在終端機輸入&#xA;&lt;ul&gt;&#xA;&lt;li&gt;brew install hugo&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
   </channel>
