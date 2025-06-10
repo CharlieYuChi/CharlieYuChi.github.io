@@ -8,6 +8,7 @@ googleAnalytics = "G-5VLQ12NSLS"
 preserveTaxonomyNames = true
 pagination.pagerSize = 5 #frontpage pagination
 hasCJKLanguage = true
+enableRobotsTXT = true
 
 [outputs]
 home = ["HTML", "Algolia"]
