@@ -11,13 +11,13 @@ hasCJKLanguage = true
 enableRobotsTXT = true
 
 [outputs]
-home = ["HTML", "Algolia"]
+home = ["HTML", "RSS", "SITEMAP", "Algolia"]
 
 [params]
   header_image = "img/header.png"
   SEOTitle = "Yuchi Blog"
-  description = ""
-  keyword = "yuchi"
+  description = "記錄 Charlie Yuchi 的軟體開發學習筆記、技術文章與閱讀筆記"
+  keyword = "yuchi, 軟體開發, 程式教學, 部落格, 網站架設, 技術筆記, 學習筆記, 閱讀筆記"
   slogan = ""
   upstreamAttribution = false
 
